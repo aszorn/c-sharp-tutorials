@@ -4,6 +4,12 @@ class Program
 {
     static void Main(string[] args)
     {
+        /* 
+            This changes the
+            Title of the terminal
+        */
+        Console.Title = "Holiday Application";
+
         // Display red holiday text.
         Console.ForegroundColor = ConsoleColor.Red;
         Console.WriteLine("This is the first holiday color!");
@@ -11,6 +17,10 @@ class Program
         // Display green holiday text.
         Console.ForegroundColor = ConsoleColor.Green;
         Console.WriteLine("This is the second holiday color!");
+
+        // Display Dark red halloween text.
+        Console.ForegroundColor = ConsoleColor.DarkRed;
+        Console.WriteLine("Happy Halloween!!!");
 
         /*
             Reset the console colors to their original state.
