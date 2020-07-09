@@ -4,6 +4,9 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello World!");
+        Console.ForegroundColor = ConsoleColor.Green;
+        Console.WriteLine("Hello C#");
+        Console.WriteLine("Welcome, user.");
+        Console.ResetColor();
     }
 }
